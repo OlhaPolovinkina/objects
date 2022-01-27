@@ -2,17 +2,14 @@ function ClothesShop (name, area, staff, products) {
     if (!new.target) {
         return new ClothesShop(name, area, staff, products)
     }
-
     this.name = name || ''
     this.area = area || 0
     this.staff = staff || 0
     this.products = products || 0
-
-
  }
  console.log(ClothesShop())
 
-
+// create object cs1
 const cs1 = ClothesShop()
 cs1.name = 'Glam_shop'
 cs1.area = 1200
@@ -20,6 +17,7 @@ cs1.staff = 24
 cs1.products = 1300
 console.log(cs1)
 
+// create object cs1
 const cs2 = ClothesShop()
 cs2.name = 'BabyShop'
 cs2.area = 800
