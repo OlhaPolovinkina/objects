@@ -25,6 +25,7 @@ cs2.staff = 18
 cs2.products = 1150
 console.log(cs2)
 
+// create object cs1
 const cs3 = ClothesShop()
 cs3.name = 'ManShop'
 cs3.area = 800
